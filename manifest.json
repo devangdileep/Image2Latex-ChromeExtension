@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Image2Latex",
+  "version": "1.0",
+  "description": "A Chrome Extension to capture an image Latex Code",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "background": {
+    "service_worker": "script.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo.png"
+  }
+}
