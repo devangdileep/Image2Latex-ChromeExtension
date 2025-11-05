@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image2Latex</title>
     <link rel="stylesheet" href="src/style.css">
-
 </head>
 <body>
-    <div class="main-heading">Image2Latex</div>
-    <button id="capture-button">Capture Image</button>
+    <h1>Image2LaTeX</h1>
+    <input type="file" id="imageFile" accept="image/*">
+    <button id="convertbutton" disabled>Convert</button>
+    <h2>LaTeX Output:</h2>
+    <textarea id="latexoutput" rows="10" readonly></textarea>
+    <script src="src/main.js"></script>
 </body>
 </html>

@@ -1,28 +1,26 @@
 body {
-    background-color: #4b6cb7;
-    width: 320px;
-    height: 250px;
-    text-align: center;
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    padding: 10px;
+    min-width: 300px;
 }
-.main-heading {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
+
+h1, h2 {
+    color: #333;
 }
-button {
-    background-color: #0072ff;
-    padding: 10px 20px;
+
+#latexoutput {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#convertbutton {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 6px;
+    cursor: pointer;
 }
-button:hover {
-        background-color: #005bb5;
-    }
