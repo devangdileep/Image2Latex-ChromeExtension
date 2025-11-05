@@ -4,20 +4,39 @@ body {
     min-width: 300px;
 }
 
-h1, h2 {
-    color: #333;
+h1{
+    position: flex;
+    text-align: center;
+} 
+
+h2 {
+    position: flex;
+    text-align: center;
 }
 
+#uploaded-image {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    border: black 1px solid;    
+    font-size: 14px;
+}
+
+
 #latexoutput {
+    position: flex;
+    align-items: center;
     width: 100%;
     box-sizing: border-box;
 }
 
 button {
-    margin-top: 10px;
+    font-size: medium;
+    margin: 10px auto;
+    display: block;
     padding: 8px 15px;
-    background-color: #4CAF50;
-    color: white;
+    background: #4CAF50;
+    color: #fff;
     border: none;
     cursor: pointer;
 }
