@@ -11,12 +11,9 @@ h1, h2 {
 #latexoutput {
     width: 100%;
     box-sizing: border-box;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    padding: 5px;
 }
 
-#convertbutton {
+button {
     margin-top: 10px;
     padding: 8px 15px;
     background-color: #4CAF50;

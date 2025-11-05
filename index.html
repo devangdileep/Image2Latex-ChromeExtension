@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-    <h1>Image2LaTeX</h1>
-    <input type="file" id="imageFile" accept="image/*">
-    <button id="convertbutton" disabled>Convert</button>
-    <h2>LaTeX Output:</h2>
-    <textarea id="latexoutput" rows="10" readonly></textarea>
-    <script src="src/main.js"></script>
+  <h1>Image2Latex</h1>
+  <div class="upload-box">
+    <input type="file" id="uploaded-image" accept="image/*">
+    <button id="convertbutton">Convert</button>
+  </div>
+  <h2>LaTeX Output</h2>
+  <textarea id="latexoutput" rows="8" readonly></textarea>
+  <script src="src/main.js"></script>
 </body>
 </html>
