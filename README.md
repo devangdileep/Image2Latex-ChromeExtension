@@ -29,3 +29,52 @@ Image2Latex/
     └── style.css       # Styles for popup
 ```
 
+## ⚙️ How to Run the Extension Locally
+
+Follow these simple steps to load and test the extension in Chrome
+
+### 🧩 1. Clone or Download the Project
+
+```
+bash
+git clone https://github.com/devangdileep/Image2Latex.git
+cd Image2Latex
+Or download it as a ZIP and extract it.
+```
+
+### 🛠️ 2. Set Up Your Backend
+```
+Make sure your local API (Flask + pix2tex or similar) is running at:
+bash
+Copy code
+http://localhost:5000/api/convert
+Example expected request:
+
+Method: POST
+
+Body: image file (FormData)
+
+Response: json
+```
+### 🌐 3. Load the Extension in Chrome
+```
+Open Google Chrome and go to: chrome://extensions/
+Turn Developer mode ON (top-right corner).
+
+Click Load unpacked.
+
+Select the project folder (Image2Latex).
+
+Chrome will now load your extension.
+```
+### ▶️ 4. Use the Extension
+```
+Click the Image2LaTeX icon in your browser toolbar.
+
+In the popup:
+Click Choose File and select a math image.
+
+Click Convert.
+
+The LaTeX output will appear instantly in the result box.
+```
